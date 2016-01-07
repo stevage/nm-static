@@ -1,0 +1,34 @@
+{
+    "homeCamera": {
+        "north": -36,
+        "east": 146,
+        "south": -38,
+        "west": 143
+    },
+    "initialCamera": {
+        "west": 143.75018255814342,
+        "south": -37.58510705132785,
+        "east": 143.86990086317678,
+        "north": -37.51500741172751
+    },
+    "catalog": [
+        {
+            "name": "CSV stealth testing",
+            "type": "group",
+            "isOpen": true,
+            "items": [
+                {
+                    "name": "Green-orange postcodes with stealth",
+                    "type": "csv",
+                    "url": "/build/TerriaJS/test/csv/sa1-stealth.csv",
+                    "tableStyle": {
+                        "colorMap": "green-orange",
+                        "regionVariable": "statisticalarea1",
+                        "regionType": "SA1",
+                        "dataVariable": "Value"
+                    }
+                }
+            ]
+        }
+    ]
+}
